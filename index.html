@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thapar Societies</title>
+    <!-- Example of correct font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Check if style.css is correctly linked -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<script>
+
+        function navigateToSociety(event) {
+            var url = event.target.value;
+            if (url) {
+                window.location.href = url;
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li> <!-- Check href values -->
+                <li><a href="#footer-container">Contact</a></li>
+                <li>
+                    <select class="options" onchange="navigateToSociety(event)">
+                        <option>All Societies</option>
+                        <option value="website1/index.html">Owasp</option>
+                        <option value="website2/index.html">SAIC</option>
+                        <option value="website3/index.html">Microsoft</option>
+                        <option value="website4/index.html">Saturnalia</option>
+                        <option value="website5/index.html">CCS</option>
+                        <option value="website6/index.html">Frosh</option>
+                        <option value="website7/index.html">Faps</option>
+                        <option value="website8/index.html">Thapar Movie Club</option>
+                    </select>
+                </li>
+                <li><a href="#faq-container">FAQ</a></li>
+                <li><a href="#bottom-footer">Feedback Form</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <main>
+        <section class="hero" id="hero"> <!-- Add an ID to scroll to -->
+            <h1>Thapar Societies</h1>
+        </section>
+        <section class="lineup">
+            <h2>OUR SOCIETIES</h2>
+            <div id="cards">
+                <!-- Check image src attributes and correct closing tags -->
+                <div class="card">
+                    <div class="society">
+                        <a href="website1/index.html"><img src="button1.jpg" alt="Button 1"><h3>Owasp: Student Chapter</h3></a>
+                    </div>
+                </div>
+                <!-- Add alt attributes to all images -->
+                <div class="card">
+                    <div class="society">
+                        <a href="website2/index.html"><img src="button2.jpg" alt="Button 2"><h3>Student Alumni Interaction Cell</h3></a>
+                    </div>
+                </div>
+                <!-- Ensure all href attributes have proper values -->
+                <div class="card">
+                    <div class="society">
+                        <a href="website3/index.html"><img src="button3.jpg" alt="Button 3"><h3>Microsoft Learn Student Chapter</h3></a>
+                    </div>
+                </div>
+                <!-- Close img tags properly -->
+                <div class="card">
+                    <div class="society">
+                        <a href="website4/index.html"><img src="button4.jpg" alt="Button 4"><h3>Saturnalia</h3></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="society">
+                        <a href="website5/index.html"><img src="button5.jpg" alt="Button 5"><h3>Creative Computing Society</h3></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="society">
+                        <a href="website6/index.html"><img src="button6.jpg" alt="Button 6"><h3>Frosh</h3></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="society">
+                        <a href="website7/index.html"><img src="button7.jpg" alt="Button 7"><h3>Fine Arts and Photography Society</h3></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="society">
+                        <a href="website8/index.html"><img src="button8.jpg" alt="Button 8"><h3>Thapar Movie Club</h3></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3 class="question">Question 1: What is the purpose of this website?</h3>
+            <p class="answer">Answer: This website serves as a comprehensive platform for showcasing all the societies at Thapar University. It provides detailed information about each society, their events, and contact information to help students get involved in campus activities.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Question 2: How can I join a society?</h3>
+            <p class="answer">Answer: You can join a society by attending their events and meetings. Each society's contact information is provided on their respective pages. You can reach out to them via email or social media to express your interest in joining.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Question 3: Are there any membership fees for joining a society and Can I join more than one society?</h3>
+            <p class="answer">Answer: Membership fees vary from society to society. Some societies may charge a small fee to cover the costs of events and activities, while others may not. Please check the individual society's page for specific details and Yes, you can join multiple societies as long as you can manage your time and commitments effectively. Participating in various societies can enrich your university experience and provide diverse opportunities for growth.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Question 4:How can I stay updated on society events and activities?</h3>
+            <p class="answer">Answer: You can stay updated by following the societies on their social media pages and regularly checking this website. Each society's page includes links to their social media accounts where they post updates about upcoming events and activities.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Question 5: Who can I contact for more information?</h3>
+            <p class="answer">Answer: For more information, you can reach out to the society representatives listed on their respective pages. Additionally, if you have any general inquiries about the website, you can contact the developers directly using the contact information provided in the footer.</p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-container">
+            <div class="footer-left">
+                <h3>Contact Us</h3>
+                <div class="contact">
+                    <div class="contact1">
+                        <h4>Prisha Aggarwal</h4>
+                        <p><a href="mailto:prishaagg4@gmail.com"><i class="fa-solid fa-envelope"></i><span class="gap">Email: prishaagg4@gmail.com</span></a></p>
+                        <p><a href="https://github.com/Pri34"><i class="fa-brands fa-github"></i><span class="gap">Prisha Aggarwal </span></a></p>
+                        <p><i class="fa-solid fa-phone"></i><span class="gap">Phone: 7658800002</span></p>
+                    </div>
+                    <div class="contact1">
+                        <h4>Devanshu Singla</h4>
+                        <p><a href="mailto:singladevanshu925@gmail.com"><i class="fa-solid fa-envelope"></i><span class="gap">Email: singladevanshu925@gmail.com</span></a></p>
+                        <p><a href="https://github.com/Devanshu2k5singla"><i class="fa-brands fa-github"></i><span class="gap">Devanshu Singla </span></a></p>
+                        <p><i class="fa-solid fa-phone"></i><span class="gap">Phone: 9056174744</span></p>
+                    </div>
+                    <div class="contact1">
+                        <h4>Arushi Wadhawan</h4>
+                        <p><a href="mailto:wadhawanarushi30@gmail.com"><i class="fa-solid fa-envelope"></i><span class="gap">Email: wadhawanarushi30@gmail.com</span></a></p>
+                        <p><a href="https://github.com/Arushi-wadhawan"><i class="fa-brands fa-github"></i><span class="gap">Arushi Wadhawan </span></a></p>
+                        <p><i class="fa-solid fa-phone"></i><span class="gap">Phone: 9466017383</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-center">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    
+                    <!-- Replace with actual social media icons -->
+                    <a href="https://www.instagram.com/prisha_aggarwal.4/"><i class="fa-brands fa-instagram"></i><span class="gap extragap">Prisha Aggarwal</span></a>
+                    <a href="https://www.instagram.com/devanshu._11/"><i class="fa-brands fa-instagram"></i><span class="gap extragap">Devanshu Singla</span></a>
+                    <a href="https://www.instagram.com/arushi.wadhawan/"><i class="fa-brands fa-instagram"></i><span class="gap">Arushi Wadhwana</span></a>
+                
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>About Us</h3>
+                <p>We have creatd an event website focused on Thapar that features a delightful UI/UX and is highly practical for incoming first-year students. Deploying this will benefit us, especially since it minimizes the need for extensive frontend development beyond HTML and CSS.
+
+                    Using data from various societies, each will have a dedicated page showcasing their events and Instagram feeds. This eliminates the need to scan multiple QR codes during society fairs. Essentially, it consolidates all Thapar societies onto one platform and linking to their respective Instagram pages.
+                    
+                    This approach not only solves one of issues but also leverages our skills in HTML, CSS, and UI/UX design. It's an ideal project that addresses a practical need within the university community.</p>
+            </div>
+        </div>
+        <div class="footer-bottom" id="bottom-footer">
+            <p>Fill the Form below for Feedback</p>
+        </div>
+        <div class="feedback-container">
+            <h2>Feedback Form</h2>
+            <form action="https://formspree.io/f/mgvwvawo" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Feedback</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
+   
