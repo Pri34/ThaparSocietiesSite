@@ -39,7 +39,7 @@ nav {
 
 #hero {
     height: 100vh;
-    background-image: url('background.jpg');
+    background-image: url('Background.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,9 +303,18 @@ span {
        
     }
 
+    .content-section {
+        height: 1500px;
+    }
+    #hero {
+        height : 1500px ;
+    }
+
+
     .column {
         width: 100%;
         font-size: 24px;
+        height : 100% ;
     }
 
     .main-event {
@@ -371,8 +380,12 @@ span {
     .column {
         width: 100%;
         font-size: 20px;
-        padding: 10px;
-        height: auto;
+        padding: 70px;
+        height: 700px;
+    }
+
+    .content-section {
+        height : 1700px ;
     }
 
     .main-event {

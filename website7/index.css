@@ -305,6 +305,11 @@ span {
     .column {
         width: 100%;
         font-size: 24px;
+        height: 100%;
+    }
+
+    .content-section {
+        height: 1500px;
     }
 
     .main-event {
@@ -375,8 +380,12 @@ span {
     .column {
         width: 100%;
         font-size: 20px;
-        padding: 10px;
-        height: auto;
+        padding: 70px;
+        height: 700px;
+    }
+
+    .content-section {
+        height : 1700px ;
     }
 
     .main-event {

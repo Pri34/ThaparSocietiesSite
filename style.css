@@ -487,7 +487,7 @@ footer {
     border-color: white;
     color : white ;
     margin-left: 0;
-    margin-right: 0;  
+    margin-right: 0; 
 }
 #faq-container h2 {
     font-size: 40px;
@@ -606,7 +606,18 @@ input, textarea {
     .contact1 {
         margin: 10px 0;
     }
-}
+   #faq-container {
+    padding-left: 6px;
+    text-align: center;
+   }
+   .contact {
+    text-align: center;
+    padding-left : 50% ;
+   }
+   .footer-left h3 {
+    padding-left : 50% ;
+   }
+} 
 @media (max-width: 600px) {
     nav {
         height : 215px;
@@ -651,10 +662,19 @@ input, textarea {
     .contact1 {
         margin: 10px 0;
     }
+
+    .contact {
+        padding-right: 50%;
+    }
+
+    .footer-left h3 {
+        padding-left: 0px;
+    }
+
+    #faq-container {
+        padding-left: 10px;
+        text-align: center;
+       
+     }
 }
 
-/* left right border remove in faq box
-add media queries to all new websites
-add media query for 16inch laptop only for cards img centering
-add media query for website4 diff
-/*

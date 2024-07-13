@@ -297,16 +297,26 @@ span {
 
     #hero:hover .textbox {
         display: block;
-        margin-top: 175px;
+        margin-top: 155px;
         width : 300px ;
        
     }
 
+    #hero {
+        height : 1000px ;
+    }
+
+    
     .column {
         width: 100%;
         font-size: 24px;
+        height: 100%;
     }
 
+
+    .content-section {
+        height: 1500px;
+    }
     .main-event {
         font-size: 36px;
     }
@@ -354,16 +364,16 @@ span {
     }
 
     #hero h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
     
     #hero h1:hover {
-        font-size : 22px ;
+        font-size : 50px ;
     }
 
     #hero:hover .textbox {
         display: block;
-        margin-top: 1355px;
+        margin-top: 175px;
         width : 300px ;
     }
 
@@ -375,8 +385,12 @@ span {
     .column {
         width: 100%;
         font-size: 20px;
-        padding: 10px;
-        height: auto;
+        padding: 70px;
+        height: 700px;
+    }
+
+    .content-section {
+        height : 1700px ;
     }
 
     .main-event {
