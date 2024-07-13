@@ -1,3 +1,8 @@
+* {
+    margin : 0 ;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -389,7 +394,7 @@ span {
 
 
     .column {
-        width: 100%;
+        width: 85%;
         font-size: 20px;
         padding: 70px;
         height: 700px;

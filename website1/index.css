@@ -1,3 +1,7 @@
+* {
+    margin : 0 ;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -110,7 +114,8 @@ nav {
 .column {
     position: relative;
     width: 30%;
-    padding: 20px;
+    padding: 7%;
+    
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     height: 600px;
@@ -118,7 +123,7 @@ nav {
     font-weight: bold;
     font-size: 30px;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .column1 {
@@ -378,15 +383,20 @@ span {
 
 
     .column {
-        width: 100%;
+        width: 85%;
         font-size: 20px;
         padding: 70px;
         height: 700px;
     }
-
-    .content-section {
-        height : 1700px ;
+    .hover-content{
+        width:10px;
     }
+    /* .hover-text{
+        /* height : 1700px ;    */
+      /* padding:10px; */
+      
+    
+
 
     .main-event {
         font-size: 28px;
@@ -395,6 +405,12 @@ span {
     .hover-text {
         font-size: 18px;
         width: 90%;
+    }
+
+    .hover-text {
+        /* padding: 10px; */
+        word-wrap: break-word; /* Ensure text wraps to stay within the box */
+    
     }
     
     footer .social-media a {
@@ -425,5 +441,6 @@ span {
         display: flex;
         justify-content: center;
     }
+    
+    
 }
-
